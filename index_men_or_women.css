@@ -1,0 +1,180 @@
+#loader img
+{
+margin-top: 1%;
+margin-left: 27%;
+ 
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+ #section1 
+  {
+    height:625px;
+    background-image: url(image/58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ 
+   
+  .welcome h1
+  {
+    letter-spacing: 5px;
+     padding: 15px; 
+    color:white; 
+    border:2px solid white;
+    text-align:center;
+    font-family:Chicle;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .welcome h1:hover
+  {
+    transition: 0.9s ease;
+    letter-spacing: 10px;
+    background-color: #1c2833;
+  }
+   .welcome h2
+  {
+    letter-spacing: 3px;
+     padding: 10px; 
+    color:white; 
+    border-left:7px solid white;
+    text-align:left;
+    font-family:Chicle;
+    font-size: 30px;
+    margin-top: -30px;
+     
+    cursor: pointer;
+  }
+   .welcome h4
+  {
+    letter-spacing: 3px;
+     padding: 10px; 
+    color:white; 
+    text-align:left;
+    font-family:georgia header;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+   .welcome i:hover
+   {
+    color:black;
+    transition: 0.4s ease-in-out;
+    
+   }
+  .welcome a
+  {
+    color: white;
+    text-decoration: none;
+  } 
+
+   .logo_heading
+  {
+    margin-bottom: 16%;
+  }
+      .logo_heading h2
+  {
+    letter-spacing: 3px;
+     padding: 25px; 
+    color:#1c2833; 
+     
+     height: 79px;
+     background-color: #abb2b9;
+    font-family:Chicle;
+    font-size: 30px;
+    width:198px;
+    
+    cursor: pointer;
+  }
+  .logo_heading img
+  {
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 170px;
+  }
+ .arrow_navigation i
+ {
+  
+  font-size: 6.5em;
+  margin-top: -95px;
+ margin-left: 196px;
+  position: absolute;
+  float: right;
+  color: #abb2b9;
+ }
+ .social .well
+ {
+  position: fixed;
+  width:60px;
+  border-radius: 0px;
+right: 40px;
+top: 100px;
+background-color:#abb2b9;
+border: none;
+ }
+  .social .well i
+  {
+    font-size: 26px;
+    color: #1c2833;
+  }
+  .social .well i:hover
+  {
+  
+    transition: 0.8s ease;
+    /*text-shadow: -10px -10px black;*/
+  }
+   .curve_address_bottom
+  {
+    height: 40px;
+    width: 40px;
+    background-color:#abb2b9;
+    border-top: 3px solid #abb2b9;
+    border-left: 0px solid #1c2833;
+    border-right: 3px solid #abb2b9;
+    border-bottom:  0px solid #1c2833;
+    transform: rotate(45deg);
+    margin-top: 108px;
+    float: right;
+    margin-right: 5px;
+
+  }

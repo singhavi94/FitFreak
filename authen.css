@@ -1,0 +1,186 @@
+#loader img
+{
+margin-top: 1%;
+margin-left: 27%;
+ 
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+ #section1 
+  {
+    height:625px;
+    background-image: url(image/58.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+ .authen_section{}
+   .logo_heading
+  {
+    margin-bottom: 16%;
+  }
+      .logo_heading h2
+  {
+    letter-spacing: 3px;
+     padding: 25px; 
+    color:#1c2833; 
+     
+     height: 79px;
+     background-color: #abb2b9;
+    font-family:Chicle;
+    font-size: 30px;
+    width:198px;
+    
+    cursor: pointer;
+  }
+  .logo_heading img
+  {
+    position: absolute;
+    margin-top: -75px;
+    margin-left: 170px;
+  }
+ .arrow_navigation i
+ {
+  
+  font-size: 6.5em;
+  margin-top: -95px;
+ margin-left: 196px;
+  position: absolute;
+  float: right;
+  color: #abb2b9;
+ }
+ .social .well
+ {
+  position: fixed;
+  width:60px;
+  border-radius: 0px;
+right: 40px;
+top: 100px;
+background-color:#abb2b9;
+border: none;
+ }
+  .social .well i
+  {
+    font-size: 26px;
+    color: #1c2833;
+  }
+  .social .well i:hover
+  {
+  
+    transition: 0.8s ease;
+    /*text-shadow: -10px -10px black;*/
+  }
+  .curve_address_bottom
+  {
+    height: 40px;
+    width: 40px;
+    background-color:#abb2b9;
+    border-top: 3px solid #abb2b9;
+    border-left: 0px solid #1c2833;
+    border-right: 3px solid #abb2b9;
+    border-bottom:  0px solid #1c2833;
+    transform: rotate(45deg);
+    margin-top: 108px;
+    float: right;
+    margin-right: 5px;
+
+  }
+   
+  
+  .user_login_well:hover{box-shadow: 0px 0px 40px 6px rgba(249, 241, 239,0.9);cursor: pointer;transition: 0.8s;}
+  .login_theme{padding-top: 40px;}
+  .login_theme label{color:white;font-family: Acme;letter-spacing: 2px;}
+  .login_theme h2{color: black;font-family: Acme;text-align:left;font-size: 24px;color: white;margin-top: 10px;}
+  .login_theme p{color: black;font-family: Acme;text-align:left;font-size: 16px;color: white;padding-bottom: 20px;}
+   .login_theme input{border-radius: 0px;padding:15px; border:1px solid #1c2833;}
+   .login_theme textarea{border-radius: 0px;padding:15px; border:1px solid #1c2833;}
+  .login_theme select{border-radius:0px;border:1px solid #1c2833;}
+  .whole_image img{padding-top: 40px;padding-bottom: 10px;}
+   .whole_image h2{font-family: Acme;text-align: center;color: #0c8ff9;}
+  .user_login_well{margin-top: 70px;}
+  .btn-info{background-color: #1c2833;border-radius: 0px;border:none; font-family: Acme;letter-spacing: 2px;}
+  .btn-info:hover{background-color: #1c2833;border-radius: 0px;border:none;}
+  .btn-danger{background-color: #1c2833;border-radius: 0px;border:none; font-family: Acme;letter-spacing: 2px;}
+  .btn-danger:hover{background-color: #1c2833;border-radius: 0px;border:none;}
+   .whole_image h2{font-size: 20px;text-align: center;margin-top: 40px;padding-bottom: 5px;}
+ 
+
+.profile_image_well{margin-top: 20px;}
+              .profile_image_well .well{background-color: white; padding: 5px;border-top-left-radius: 30px;border-bottom-left-radius: 0px;border-top-right-radius: 30px;border-bottom-right-radius: 0px;border:1px solid #2C37A0;overflow: hidden;}
+               .profile_image_well .well img{border-top-left-radius: 30px;border-top-right-radius: 30px;}
+               .profile_image_well .well img:hover{transition: 0.7s;transform: scale(1.4); cursor: pointer;}
+         
+            .section_profile
+{
+  background-color:white;
+  height: 100%;padding-top: 100px;
+}
+    #profile
+  {
+    padding-top:20px;
+    height:100%;
+    color: #fff; 
+    padding-bottom: 20px;
+    background-image: url(image/21.jpg);
+    background-size: cover;
+    background-color:#0C8FF9;
+    background-repeat: no-repeat;
+ 
+  }
+   #profile h2
+   {
+    letter-spacing: 3px;
+    text-align: center;
+    color: #0C8FF9;
+   font-family: 'Acme';
+     
+   }
+    #profile p
+   {
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: rockwell;
+    font-style: italic;
+   }
+   #profile h1
+   {
+    letter-spacing: 3px;
+    text-align: center;
+    font-family:rockwell; 
+   }

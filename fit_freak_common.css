@@ -1,0 +1,62 @@
+ #section1_above{background-color: blue;height: 77px;}
+  #section1_fas{height:100%;padding-top: 130px;padding-bottom: 30px;background-image: url(image/36.jpg);background-repeat: no-repeat;
+  	 background-size: cover;background-position: center;}
+  #section1_fas h1{text-align: center;color: white;letter-spacing: 2px;font-family: Aladin;padding-top: 55px;font-size:3em;}
+  #section1_fas h3{text-align: center;color: white;letter-spacing: 2px;font-family: Aladin;}
+  #section1_fas .down_well .well{border-radius: 0px;margin-top: 20px;height:100%;background-color:white;border:none;}
+   .down_well .well h4{text-align: center;font-family: Chicle; letter-spacing: 1px;line-height: 40px;font-size: 24px;}
+  
+  #section2_fas{background-color:;height:100%;padding-top: 30px;padding-bottom: 30px;}
+  #section2_fas p{text-align:;left;font-family:times new roman;line-height: 30px;font-size: 20px;}
+
+ 
+
+    .club_fas h4{text-align: center;font-family:Chicle;letter-spacing: 2px;font-size: 15px; padding-top: 15px;margin-bottom: -10px;}
+  .tryusone p{text-align:center;font-family:'Bigshot One';line-height: 30px;font-size: 20px;}
+  .tryusone h1{font-family: Baloo Bhai;letter-spacing: 2px;text-align: center;}
+  .tryusone h2{font-family: Baloo Bhai;letter-spacing: 2px;text-align: center;font-size: 20px;}
+
+  .tryustwo p{text-align:left;font-family:'Bigshot One';line-height: 30px;font-size: 20px;}
+  .tryustwo h1{font-family: Baloo Bhai;letter-spacing: 2px;text-align: center;}
+  .tryustwo h2{font-family: Baloo Bhai;letter-spacing: 2px;text-align: left;font-size: 20px;}
+  .tryustwo h3{font-family: Baloo Bhai;letter-spacing: 2px;text-align: left;font-size: 16px;}
+  .tryustwo h4{font-family: times new roman;letter-spacing: 1px;font-weight: bold;text-align: left;font-size: 16px;}
+
+.nav-tabs a{font-family: Baloo Bhai;letter-spacing: 2px;text-align: left;font-size: 16px;}
+
+  .tryusone input{border-radius: 0px;height: 40px; border:1px solid #1c2833;font-family:Baloo Bhai;letter-spacing: 3px;}
+   .tryusone select{border-radius:0px;height: 40px;border:1px solid #1c2833;font-family: Baloo Bhai;letter-spacing: 3px;}
+  .tryusone label{letter-spacing: 3px;font-family: Baloo Bhai;font-size: 14px;}
+  .tryusone span{color: red;}
+  .tryusone .btn-success{border-radius: 0px;background-color:#1c2833;border:none; }
+    .tryusone .btn-success:hover{background-color:#1c2833;border:none;transition: 0.7s;border-radius: 30px; }
+    .tryusone h4{text-align:left;font-family:times new roman;line-height: 30px;font-size: 20px;}
+    
+     .tryusonerev p{text-align:center;font-family:'Bigshot One';line-height: 30px;font-size: 20px;}
+  .tryusonerev h1{font-family: Baloo Bhai;letter-spacing: 2px;text-align: center;}
+  .tryusonerev h2{font-family: Baloo Bhai;letter-spacing: 2px;text-align: center;font-size: 20px;}
+  .tryusonerev .well{border-bottom-right-radius: 30px;border-top-left-radius: 30px;background-color:white;border:2px solid #1c2833;}
+  .tryusonerev .well img{border-bottom-right-radius: 30px;border-top-left-radius: 30px;border:2px solid #1c2833;margin-top: 30px;}
+
+    #section3_fas{background-color:;height:100%;padding-top: 30px;padding-bottom: 30px;}
+  #section3_fas p{text-align:center;font-family:'Bigshot One';line-height: 30px;font-size: 20px;}
+   .btn-info{border-radius: 0px;background-color:#1c2833;border:none; font-family: Baloo Bhai;letter-spacing: 2px; }
+   .btn-info:hover{background-color:#1c2833;border:none;text-decoration: none; }
+.btn-info a{color: white;text-decoration: none;}
+.btn-info a:hover{color: white;text-decoration: none;}
+ #section4_fas{background-color: white;height:100%;padding-top: 30px;padding-bottom: 30px;}
+   .vertical_line{height: 5px;background-color: #1c2833;width: 100%;margin-top: 3px;} 
+ 
+ #section5_fas{height:100%;padding-top:80px;padding-bottom: 80px;background-image: url(image/71.jpg);background-repeat: no-repeat;
+     background-size: cover;background-position: center;}
+  #section5_fas h1{text-align: center;color:#1c2833;letter-spacing: 2px;font-family: Aladin;padding-top: 55px;font-size:3em;}
+  .tryusone .well{border-bottom-right-radius: 30px;border-top-left-radius: 30px;background-color:white;}
+    
+
+#section6_fas{height:100%;padding-top:30px;padding-bottom: 80px;}
+  #section5_fas h1{text-align: center;color:#1c2833;letter-spacing: 2px;font-family: Aladin;padding-top: 55px;font-size:3em;}
+
+          #section11 .footer_list h4{font-family:Baloo Bhai;letter-spacing: 2px;color:#abb2b9 ;}
+          .footer_list ul li{list-style-type: none;}
+           .footer_list ul li a{font-family:Chicle;letter-spacing: 2px;line-height: 30px;color:#abb2b9 ;text-decoration: none;cursor: pointer; }
+      .footer_list ul li a:hover{color: white;transition: 0.7s;}
